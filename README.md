@@ -1,5 +1,7 @@
 # img2pdf — конвертер изображений в PDF (JPG, PNG, WebP, BMP)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **img2pdf** — бесплатная CLI-утилита на Python: несколько картинок → один PDF с сохранением порядка страниц.  
 Подходит, если вам нужен **jpg2pdf**, **png2pdf**, **webp2pdf**, **bmp2pdf**, **image2pdf** или **images2pdf** без онлайн-сервисов и регистрации.
 
@@ -117,3 +119,25 @@ open-source
 ## Ключевые слова (для поиска)
 
 `img2pdf` · `image to pdf` · `images to pdf` · `picture to pdf` · `photo to pdf` · `merge images to pdf` · `combine images pdf` · `batch image to pdf` · `конвертер картинок в pdf` · `изображения в pdf` · `склейка фото в pdf`
+
+## English
+
+**img2pdf** is a free, open-source **command-line image to PDF converter** (MIT License). Merge **JPG, PNG, WebP, and BMP** into a single PDF file—order of pages matches the order of input files. No upload to third-party websites; runs locally with Python 3.10+ and [Pillow](https://pypi.org/project/Pillow/).
+
+**Use cases:** jpg2pdf · png2pdf · webp2pdf · bmp2pdf · image2pdf · images2pdf · merge images to pdf · batch convert photos to pdf · scan to pdf from image files.
+
+**Install** (from the project directory):
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+**Run:**
+
+```bash
+python3 img2pdf.py photo.jpg scan.png -o document.pdf
+```
+
+On Windows, use `python` instead of `python3`. Default output file: `output.pdf` if `-o` is omitted.
+
+**License:** [MIT](LICENSE) — Copyright (c) 2026 [gwogo-r](https://github.com/gwogo-r).
